@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animal Encyclopedia</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('encyclopedia.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+        header {
+            background-color: rgba(0, 0, 0, 0.7);
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        .section {
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+        }
+        h2 {
+            font-size: 28px;
+            margin-top: 0;
+        }
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+            color: #333;
+        }
+        .animal-img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Animal Encyclopedia</h1>
+    </header>
+    <div class="container">
+        <div class="section">
+            <h2>Mammals</h2>
+            <p>Mammals: Mammal, (class Mammalia), any member of the group of vertebrate animals in which the young are nourished with milk from special mammary glands of the mother. In addition to these characteristic milk glands, mammals are distinguished by several other unique features. .</p>
+            <img src="mammals.jpg" alt="Mammals" class="animal-img">
+        </div>
+        <div class="section">
+            <h2>Birds</h2>
+            <p>Birds: Birds are a group of warm-blooded vertebrates constituting the class Aves, characterised by feathers, toothless beaked jaws, the laying of hard-shelled eggs, a high metabolic rate, a four-chambered heart, and a strong yet lightweight skeleton..</p>
+            <img src="birds.jpg" alt="Birds" class="animal-img">
+        </div>
+        <div class="section">
+            <h2>Reptiles</h2>
+            <p>Reptiles: Reptile, any member of the class Reptilia, the group of air-breathing vertebrates that have internal fertilization, amniotic development, and epidermal scales covering part or all of their body. .</p>
+            <img src="reptiles.jpg" alt="Reptiles" class="animal-img">
+        </div>
+        <div class="section">
+            <h2>Amphibians</h2>
+            <p>Amphibians: Amphibians are cold-blooded animals that possess backbones and display features that lie between those of fish and reptiles. .</p>
+            <img src="amphibians.jpg" alt="Amphibians" class="animal-img">
+        </div>
+        <div class="section">
+            <h2>Fish</h2>
+            <p>Fishes: Fish is an aquatic, anamniotic, gill -bearing vertebrate animal with swimming fins and a hard skull, but lacking limbs with digits..</p>
+            <img src="fish.jpg" alt="Fish" class="animal-img">
+        </div>
+    </div>
+</body>
+</html>
